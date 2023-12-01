@@ -310,7 +310,6 @@ debug.sf.high_fps.hwc.min.duration=7500000
 
 # TEE
 ro.vendor.mtk_tee_gp_support=1
-ro.vendor.mtk_teegris_tee_support=1
 
 # Wi-Fi
 persist.vendor.connsys.chipid=-1

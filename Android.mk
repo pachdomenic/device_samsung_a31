@@ -6,7 +6,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),a32)
+ifeq ($(TARGET_DEVICE),a31)
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 
 VENDOR_SYMLINKS := \

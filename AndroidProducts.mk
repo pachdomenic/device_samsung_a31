@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_a32.mk
+    $(LOCAL_DIR)/evolution_a31.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_a32-user \
-    lineage_a32-userdebug \
-    lineage_a32-eng
+    evolution_a31-user \
+    evolution_a31-userdebug \
+    evolution_a31-eng
