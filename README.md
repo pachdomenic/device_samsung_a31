@@ -1,6 +1,6 @@
-# Android device tree for Samsung Galaxy A32 4G - SM-A325F (a32)
+# Android device tree for Samsung Galaxy A31 - SM-A315F (a31)
 
-The Samsung Galaxy A32 4G (codenamed _"a32"_) is an entry-level smartphone from Samsung announced in 2021, February 25.
+The Samsung Galaxy A31 (codenamed _"a31"_) is an entry-level smartphone from Samsung announced in 2020, April 27. 
 
 ## Device Specifications
 
@@ -25,4 +25,4 @@ The Samsung Galaxy A32 4G (codenamed _"a32"_) is an entry-level smartphone from 
 
 ## Device Picture
 
-![Samsung Galaxy A32 4G](https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-a32-4g-4.jpg)
+![Samsung Galaxy A32 4G](https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-a31-1.jpg)
