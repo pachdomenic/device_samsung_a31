@@ -229,7 +229,6 @@ on post-fs-data
     # We chown/chmod /mnt/vendor/nvdata again so because mount is run as root + defaults
     chown root system /mnt/vendor/nvdata
     chmod 0771 /mnt/vendor/nvdata
-    mkdir /mnt/vendor/nvdata/media 0771 media audio
 
     #Create cct mount point
     mkdir /mnt/vendor/cct
@@ -1550,6 +1549,7 @@ on property:persist.vendor.mediatek.fg.log.enable=1
     write /sys/devices/platform/battery_meter/FG_daemon_log_level 7
     write /sys/bus/platform/devices/battery/FG_daemon_log_level 7
     write /proc/sys/kernel/printk 8
+
 
 service factory_no_image /vendor/bin/factory
     user root
