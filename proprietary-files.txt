@@ -505,10 +505,6 @@ vendor/lib64/liburee_meta_drmkeyinstall.so
 vendor/lib64/vendor.mediatek.hardware.keymaster_attestation@1.0.so
 vendor/lib64/vendor.mediatek.hardware.keymaster_attestation@1.1.so
 
-# libfmjni
--system/lib64/libfmradio_jni.so:system/lib64/libfmjni.so
--system/lib/libfmradio_jni.so:system/lib/libfmjni.so
-
 # Lights
 vendor/lib/libaal_key.so
 vendor/lib/librgbwlightsensor.so
@@ -677,10 +673,6 @@ vendor/lib64/vendor.mediatek.hardware.power@2.0.so
 -framework/mediatek-common.jar
 -framework/mediatek-framework.jar
 -framework/mediatek-ims-base.jar
--framework/mediatek-ims-common.jar
--framework/mediatek-telecom-common.jar
--framework/mediatek-telephony-base.jar
--framework/mediatek-telephony-common.jar
 -priv-app/imsservice/imsservice.apk
 system_ext/lib/vendor.mediatek.hardware.mtkradioex@3.0.so
 system_ext/lib64/vendor.mediatek.hardware.mtkradioex@3.0.so
@@ -774,8 +766,8 @@ vendor/lib64/vendor.samsung.hardware.radio@2.1.so
 vendor/lib64/vendor.samsung.hardware.radio@2.2.so
 
 # RIL (Configs)
-vendor/etc/apdb/APDB_MT6768_S01__W2213
-vendor/etc/apdb/APDB_MT6768_S01__W2213_ENUM
+vendor/etc/apdb/APDB_MT6768_S01__W2231
+vendor/etc/apdb/APDB_MT6768_S01__W2231_ENUM
 vendor/etc/ecc_list.xml
 vendor/etc/ecc_list_OP01.xml
 vendor/etc/ecc_list_OP02.xml
@@ -1014,3 +1006,57 @@ vendor/lib/modules/udc_lib.ko
 vendor/lib/modules/wlan_drv_gen4m.ko
 vendor/lib/modules/wmt_chrdev_wifi.ko
 vendor/lib/modules/wmt_drv.ko
+
+# NFC
+-framework/com.samsung.android.nfc.t4t.jar
+-framework/com.samsung.android.nfc.rfcontrol.jar
+-framework/com.samsung.android.nfc.mpos.jar
+-framework/com.publicnfc.jar
+
+# Firmware
+vendor/firmware/nfc/sec_s3nrn4v_firmware.bin
+vendor/firmware/BT_FW.cfg
+vendor/firmware/dax_param.bin
+vendor/firmware/fm_cust.cfg
+vendor/firmware/gt1151_default_firmware2.img
+vendor/firmware/gt9886_cfg_90hz6785.bin
+vendor/firmware/gt9886_cfg_90hz6877.bin
+vendor/firmware/gt9886_cfg_90hz6885.bin
+vendor/firmware/gt9886_cfg_6781v01.bin
+vendor/firmware/gt9886_cfg_6785v96.bin
+vendor/firmware/gt9886_cfg_6785v99.bin
+vendor/firmware/gt9886_cfg_6853v01.bin
+vendor/firmware/gt9886_cfg_6873v01.bin
+vendor/firmware/gt9886_cfg_6877v01.bin
+vendor/firmware/gt9886_cfg_6885v1.bin
+vendor/firmware/gt9886_cfg_6885v01.bin
+vendor/firmware/gt9886_cfg_6885v9c.bin
+vendor/firmware/gt9886_cfg_6893v01.bin
+vendor/firmware/gt9886_cfg_gt9885v1.bin
+vendor/firmware/gt9886_firmware_6781v01.bin
+vendor/firmware/gt9886_firmware_6785a4.bin
+vendor/firmware/gt9886_firmware_6785ae.bin
+vendor/firmware/gt9886_firmware_6853v01.bin
+vendor/firmware/gt9886_firmware_6873v01.bin
+vendor/firmware/gt9886_firmware_6877af.bin
+vendor/firmware/gt9886_firmware_6877v01.bin
+vendor/firmware/gt9886_firmware_6885a1.bin
+vendor/firmware/gt9886_firmware_6885af.bin
+vendor/firmware/gt9886_firmware_6885b0.bin
+vendor/firmware/gt9886_firmware_6885b1.bin
+vendor/firmware/gt9886_firmware_6885v01.bin
+vendor/firmware/gt9886_firmware_6893v01.bin
+vendor/firmware/lib3a.ccu
+vendor/firmware/mt6631_fm_channel_param.dat
+vendor/firmware/mt6631_fm_v1_coeff.bin
+vendor/firmware/mt6631_fm_v1_patch.bin
+vendor/firmware/remoteproc_scp
+vendor/firmware/soc1_0_patch_mcu_1a_1_hdr.bin
+vendor/firmware/soc1_0_ram_bt_1a_1_hdr.bin
+vendor/firmware/soc1_0_ram_mcu_1a_1_hdr.bin
+vendor/firmware/soc1_0_ram_wifi_1a_1_hdr.bin
+vendor/firmware/txpowerctrl.cfg
+vendor/firmware/WIFI
+vendor/firmware/wifi.cfg
+vendor/firmware/WIFI_RAM_CODE_soc1_0_1a_1.bin
+vendor/firmware/WMT_SOC.cfg
