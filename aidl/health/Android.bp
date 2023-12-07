@@ -15,13 +15,13 @@
  */
 
 cc_defaults {
-    name: "android.hardware.health-service.a32-defaults",
+    name: "android.hardware.health-service.a31-defaults",
     defaults: [
         "libhealth_aidl_impl_user",
         "libhealth_aidl_charger_defaults",
     ],
     relative_install_path: "hw",
-    vintf_fragments: ["android.hardware.health-service.a32.xml"],
+    vintf_fragments: ["android.hardware.health-service.a31.xml"],
     srcs: [
         "Health.cpp",
     ],
@@ -31,17 +31,17 @@ cc_defaults {
 }
 
 cc_binary {
-    name: "android.hardware.health-service.a32",
-    defaults: ["android.hardware.health-service.a32-defaults"],
+    name: "android.hardware.health-service.a31",
+    defaults: ["android.hardware.health-service.a31-defaults"],
     vendor: true,
-    init_rc: ["android.hardware.health-service.a32.rc"],
+    init_rc: ["android.hardware.health-service.a31.rc"],
     overrides: ["charger"],
 }
 
 cc_binary {
-    name: "android.hardware.health-service.a32-recovery",
-    defaults: ["android.hardware.health-service.a32-defaults"],
+    name: "android.hardware.health-service.a31-recovery",
+    defaults: ["android.hardware.health-service.a31-defaults"],
     recovery: true,
-    init_rc: ["android.hardware.health-service.a32-recovery.rc"],
+    init_rc: ["android.hardware.health-service.a31-recovery.rc"],
     overrides: ["charger.recovery"],
 }
